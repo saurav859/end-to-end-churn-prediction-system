@@ -1,17 +1,17 @@
 # 🚀 End-to-End Telecom Churn Prediction System 🚀
 
+Interface --
+<img width="1536" height="1024" alt="ChatGPT Image Apr 23, 2026, 06_13_14 PM" src="https://github.com/user-attachments/assets/69e1bc60-691f-44ea-89f1-a3366c03828c" />
+
+
 ## 📌 Overview
-
 This project is a **production-oriented machine learning system** designed to predict customer churn in the telecom industry. It goes beyond basic modeling by implementing a **modular ML pipeline, model evaluation framework, and an interactive deployment layer**.
-
 The system enables businesses to **identify high-risk customers in real time**, allowing targeted retention strategies and improved customer lifetime value.
 
 ---
 
 ## 🎯 Business Objective
-
 Customer acquisition is significantly more expensive than retention. This system addresses:
-
 * 🔍 **Churn Prediction** — Identify customers likely to leave
 * 📊 **Risk Scoring** — Estimate churn probability
 * 🎯 **Actionable Insights** — Support retention campaigns
@@ -19,30 +19,22 @@ Customer acquisition is significantly more expensive than retention. This system
 ---
 
 ## 🧠 Machine Learning Pipeline
-
 ### 🔹 Data Processing
-
 * Missing value imputation (median / mode strategy)
 * Outlier detection & capping (IQR-based)
 * Feature encoding:
-
-  * OneHotEncoding (categorical variables)
+* OneHotEncoding (categorical variables)
 * Feature scaling:
-
-  * StandardScaler (numerical features)
+* StandardScaler (numerical features)
 
 ---
 
 ### 🔹 Pipeline Architecture
-
 The model is built using a **Scikit-learn Pipeline** with a `ColumnTransformer`:
-
 * Numerical → Scaling
 * Categorical → Encoding
 * Final estimator → XGBoost
-
 This ensures:
-
 * No data leakage
 * Consistent preprocessing during inference
 * Production-ready transformation
@@ -50,7 +42,6 @@ This ensures:
 ---
 
 ### 🔹 Models Evaluated
-
 | Model               | Accuracy | ROC-AUC  |
 | ------------------- | -------- | -------- |
 | Logistic Regression | 0.80     | 0.84     |
@@ -216,20 +207,17 @@ POST /predict
 ---
 
 ## 🤝 Contributing
-
 Contributions are welcome.
 Feel free to open issues or submit pull requests.
 
 ---
 
 ## 👤 Author
-
 **Saurav Pawar**
 Aspiring Data Scientist | Machine Learning Enthusiast
 
 ---
 
 ## ⭐ Support
-
 If you found this project useful, consider giving it a ⭐
 It helps increase visibility and supports further development.
