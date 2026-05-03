@@ -1,7 +1,8 @@
 # 🚀 End-to-End Telecom Churn Prediction System 🚀
 
 Interface --
-<img width="1536" height="1024" alt="ChatGPT Image Apr 23, 2026, 06_13_14 PM" src="https://github.com/user-attachments/assets/69e1bc60-691f-44ea-89f1-a3366c03828c" />
+<img width="1536" height="1024" alt="churn Application interface" src="https://github.com/user-attachments/assets/5072f7dc-2f1a-4e5c-83f9-9e9492f8e174" />
+
 
 
 ## 📌 Overview
